@@ -1,0 +1,31 @@
+
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+        form{
+             text-align: center;
+             padding: 19px 30px ;
+             border-radius: 10px;
+             box-shadow: rgba(0, 0, 0, 0.3);
+
+        }
+        button{
+            background-color: rgb(61, 30, 238);
+            color: white;
+        }
+        h4{
+            color: blue;
+        }
+      
+    
+        input{
+            padding: 10px;
+            border-radius: 5px;
+            border: 1px solid black;
+            outline: none;
+        }
+
+  
