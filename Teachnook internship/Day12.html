@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            width: 400px;
+            height: 150px;
+            background-color: bisque;
+            border-radius: 10px;
+            box-shadow: 10px 10px 10px grey;
+            text-align: center;
+            margin:200px 400px 400px 500px;
+
+        }
+        label{
+           font: size 20px;;
+           font-weight: bold;
+           text-decoration-line: underline;
+        }
+
+        button{
+            background-color: rgb(24, 131, 24);
+            color: antiquewhite;
+        }
+
+        input{
+            border-radius: 5px;
+            border: transparent;
+        }
+    </style>
+</head>
+<body>
+    <!-- <div id="box">
+       <h1 id="text"> Welcome all !</h1>
+    </div>
+    <script>
+        document.getElementById("text")
+        [0].innerHTML="Introduction to DOM"
+    </script> -->
+ <form name="simple form" id="form"> 
+    <label>Simple form </label><br>
+    <br>
+
+   Email Id <input type="text" placeholder="enter email id">
+   <br><br>
+   Password <input type="password"placeholder="enter password"><br> <br>
+   
+   <button id="button" onclick="change()">Submit</button>
+ </form>
+    <script>
+        // DOM events 
+       function change(){
+        document.getElementById ("form").innerHTML="Thanks for the registration"
+        form.style.paddingTop="60px"
+        form.style.color="red"
+        form.style.fontSize="30px"
+       }
+    </script>
+</body>
+</html>

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            font-family: cursive;
+            letter-spacing: 2px;
+            word-spacing: 5px;
+            text-align:center;
+            color: transparent;
+            margin-top: 250px;
+            background-image: linear-gradient( 160deg,rgb(211, 11, 78),rgb(56, 56, 155),rgb(22, 236, 22));
+            -webkit-background-clp: text;
+            font-size: 40px;
+            scale: 0.5;
+            transition: 1s;
+            padding-bottom: 10px;
+
+        }
+
+        
+        h1:hover{
+                scale: 1;
+                
+            }
+
+        #box{
+            height: 150px;
+            width: 150px;
+            background-color: aqua;
+            animation-name: mybox;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            margin: 150px;
+        }
+        @keyframes mybox {
+            from{
+                background-color: rgb(37, 39, 156);
+                width: 10px;
+                height: 10px;
+            }
+            to{
+                background-color: rgb(35, 193, 233);
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+            }
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="box">
+        <h1>Thank you </h1>
+
+    </div>    
+</body>
+</html>

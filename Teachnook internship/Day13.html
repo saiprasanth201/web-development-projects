@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Introduction to <span id="myid">CSS</span></h1>
+    <h1>Introduction to <span class="myclass">CSS</span> Selectors </h1>
+    <h1>Introduction to <span tag="mytag">Events</span></h1>
+    <p id="empty"></p>
+    <button onclick="add()">click here !</button>
+    <script>
+        document.getElementById("myid").innerHTML="DOM"
+        document.getElementsByClassName("myclass")[0].innerHTML="DOM"
+        document.getElementsByTagName("h1")[2].innerHTML="Introduction to DOM Events"
+
+        function add(){
+        document.getElementById('empty').innerText="welcome all !"
+    }
+    </script>
+</body>
+</html>
